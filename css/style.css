@@ -14,10 +14,13 @@
 }
 
 .nest {
+    display: flex;
     margin: 0.3rem;
     background-color: #f07f80;
-    border: none;
     justify-content: center;
     align-items: center;
-    display: flex;
+}
+
+.nested {
+    border: 1px solid black;
 }

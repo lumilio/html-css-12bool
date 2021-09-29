@@ -54,6 +54,15 @@
 }
 
 /* COMMON */
+
+* {
+    overflow-x: hidden;
+}
+  
+body {
+    width: 100vw;
+}
+
 .row::after {
   content: '';
   display: table;
